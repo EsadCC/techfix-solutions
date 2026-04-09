@@ -1,0 +1,3 @@
+# Deze map is bedoeld voor productfoto's die via het adminpaneel worden geüpload.
+# Zorg dat de webserver schrijfrechten heeft op deze map:
+#   chmod 755 uploads/producten

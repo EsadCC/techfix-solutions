@@ -1,0 +1,26 @@
+Options -Indexes
+
+# Verberg PHP fouten van bezoekers
+php_flag display_errors Off
+php_flag log_errors On
+
+# Beveiligingsheaders
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Blokkeer toegang tot gevoelige bestanden
+<FilesMatch "\.(sql|log|env|bak|sh|git|md)$">
+    Require all denied
+</FilesMatch>
+
+# Cache voor statische bestanden
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css              "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType image/jpeg            "access plus 1 month"
+    ExpiresByType image/png             "access plus 1 month"
+</IfModule>

@@ -1,0 +1,10 @@
+# Blokkeer PHP uitvoering in de uploads map
+# Dit voorkomt dat iemand een PHP-bestand upload en uitvoert
+<FilesMatch "\.php$">
+    Require all denied
+</FilesMatch>
+
+# Sta alleen afbeeldingen toe
+<FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
+    Require all granted
+</FilesMatch>
