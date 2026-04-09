@@ -166,24 +166,16 @@ require_once __DIR__ . '/includes/header.php';
 
             <p class="voorraad-badge">✅ Op voorraad · Morgen in huis</p>
 
-            <section>
-                <strong style="font-size:14px;display:block;margin-bottom:8px;">Opslag:</strong>
-                <p class="opslag-opties">
-                    <button class="opslag-optie actief">128 GB</button>
-                    <button class="opslag-optie">256 GB</button>
-                    <button class="opslag-optie">512 GB</button>
-                </p>
-            </section>
-
             <form method="POST">
                 <section class="aantal-rij">
                     <fieldset>
                         <legend style="font-size:14px;font-weight:600;border:none;padding:0;margin-bottom:6px;">Aantal</legend>
                         <p class="aantal-control">
-                            <button type="button" class="aantal-min" aria-label="Minder">−</button>
+                            <button type="button" class="aantal-min" aria-label="Minder">-</button>
                             <input type="number" name="aantal" value="1" min="1" max="<?= intval($product['stock']) ?>" aria-label="Aantal">
                             <button type="button" class="aantal-plus" aria-label="Meer">+</button>
                         </p>
+                        <br>
                     </fieldset>
                 </section>
 
