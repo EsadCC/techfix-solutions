@@ -15,7 +15,7 @@ $huidigePagina = basename($_SERVER['PHP_SELF'], '.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= e($paginaTitel ?? 'Admin') ?> — Techfix Beheer</title>
+    <title><?= e($paginaTitel ?? 'Admin') ?> - Techfix Beheer</title>
     <link rel="stylesheet" href="<?= $SITE_URL ?>/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Barlow+Condensed:wght@700;800&display=swap" rel="stylesheet">
