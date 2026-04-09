@@ -8,7 +8,7 @@ $DB_NAME = 'techfix solutions';
 
 // ─── Site instellingen ──────────────────────────────────────
 $SITE_NAME = 'Techfix Solutions';
-$SITE_URL  = 'http://localhost/techfix2';
+$SITE_URL  = 'http://localhost/techfix-solutions';
 
 // ─── Sessie starten ─────────────────────────────────────────
 if (session_status() === PHP_SESSION_NONE) {
