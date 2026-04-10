@@ -34,7 +34,7 @@ require_once __DIR__ . '/includes/header.php';
             </p>
         </section>
         <figure class="hero-afbeelding" aria-hidden="true">
-            <span>📱</span>
+        <img src="images/reclame.png" alt="Promotie van nieuwe tech deals" width="1000" height="1000">
             <span class="hero-korting-badge">-12%<br><small>€699</small></span>
         </figure>
     </section>
