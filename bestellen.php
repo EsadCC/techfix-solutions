@@ -160,7 +160,7 @@ require_once __DIR__ . '/includes/header.php';
                 <figure class="samenvatting-product-foto" aria-hidden="true">📱</figure>
                 <section style="flex:1;">
                     <p style="font-size:13px;font-weight:600;"><?= e($item['naam']) ?></p>
-                    <p style="font-size:12px;color:var(--grijs-500);">× <?= intval($item['aantal']) ?></p>
+                    <p style="font-size:12px;color:var(--grijs-500);">x <?= intval($item['aantal']) ?></p>
                 </section>
                 <strong>€ <?= number_format($item['prijs'] * $item['aantal'], 2, ',', '.') ?></strong>
             </section>
