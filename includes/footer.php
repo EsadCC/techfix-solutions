@@ -5,14 +5,14 @@ global $SITE_URL;
 <footer class="hoofdfooter">
     <section class="footer-grid">
         <section class="footer-merk">
-            <p class="footer-logo">🔧 <strong>Techfix</strong> Solutions</p>
+            <p class="footer-logo"> <strong>Techfix</strong> Solutions</p>
             <p>Dé specialist in tech reparatie, onderdelen en accessoires. Betrouwbare kwaliteit, snelle levering.</p>
             <nav class="footer-sociaal" aria-label="Sociale media">
-                <a href="#" aria-label="Facebook">📘</a>
-                <a href="#" aria-label="Instagram">📸</a>
-                <a href="#" aria-label="Twitter">🐦</a>
-                <a href="#" aria-label="YouTube">▶️</a>
-                <a href="#" aria-label="LinkedIn">💼</a>
+                <a href="#" aria-label="Facebook"></a>
+                <a href="#" aria-label="Instagram"></a>
+                <a href="#" aria-label="Twitter"></a>
+                <a href="#" aria-label="YouTube"></a>
+                <a href="#" aria-label="LinkedIn"></a>
             </nav>
             <p class="footer-beoordeling">⭐⭐⭐⭐⭐ 4.8/5 — 2.847 reviews</p>
         </section>
@@ -52,9 +52,9 @@ global $SITE_URL;
 
         <address class="footer-kolom" style="font-style:normal;">
             <h4>Hulp nodig?</h4>
-            <p>📞 <a href="tel:0851234567" style="color:rgba(255,255,255,0.6);">085 - 123 4567</a></p>
+            <p> <a href="tel:0851234567" style="color:rgba(255,255,255,0.6);">085 - 123 4567</a></p>
             <p>Ma-Vr 08:00 - 18:00</p>
-            <p>✉️ <a href="mailto:support@techfixsolutions.nl" style="color:rgba(255,255,255,0.6);">support@techfixsolutions.nl</a></p>
+            <p> <a href="mailto:support@techfixsolutions.nl" style="color:rgba(255,255,255,0.6);">support@techfixsolutions.nl</a></p>
         </address>
     </section>
 

@@ -44,15 +44,15 @@ require_once __DIR__ . '/includes/header.php';
 <section class="vertrouwensbalk" aria-label="Voordelen">
     <ul>
         <li>
-            <span class="vertrouwen-icoon">🚚</span>
+            <span class="vertrouwen-icoon"><img src="images/free sending.png" alt="free sending car" width = 50px;>  </span>
             <p class="vertrouwen-tekst"><strong>Gratis verzending</strong><small>Vanaf €50</small></p>
         </li>
         <li>
-            <span class="vertrouwen-icoon">🔄</span>
+            <span class="vertrouwen-icoon"><img src= "images/30 dagen.jpg" alt="30 dagen bedenktijd" width = 50px;></span>
             <p class="vertrouwen-tekst"><strong>30 dagen bedenktijd</strong><small>Gratis retourneren</small></p>
         </li>
         <li>
-            <span class="vertrouwen-icoon">🔒</span>
+            <span class="vertrouwen-icoon"><img src= "images/Veilig betalen.png" alt="veilig betalen" width=76px; ></span>
             <p class="vertrouwen-tekst"><strong>Veilig betalen</strong><small>iDEAL, PayPal, Klarna</small></p>
         </li>
         <li>
@@ -73,7 +73,7 @@ require_once __DIR__ . '/includes/header.php';
         <nav class="categorie-grid" aria-label="Productcategorieën">
             <?php foreach ($categorieen as $cat): ?>
             <a href="<?= $SITE_URL ?>/producten.php?cat=<?= e($cat['slug']) ?>" class="categorie-kaart">
-                <span class="categorie-icoon"><?= $cat['icon'] ?></span>
+               
                 <span class="categorie-naam"><?= e($cat['name']) ?></span>
             </a>
             <?php endforeach; ?>
@@ -106,7 +106,7 @@ require_once __DIR__ . '/includes/header.php';
                 <p>Nu <strong>€199,-</strong> <del>€229,-</del></p>
                 <a href="<?= $SITE_URL ?>/producten.php?cat=accessoires" class="knop knop-wit knop-sm">Bekijk deal →</a>
             </section>
-            <span class="promo-afbeelding" aria-hidden="true">🎧</span>
+            <span class="promo-afbeelding" aria-hidden="true"><img src="images/samsung buds pro.webp" alt="samsung buds pro" width= 300px;></span>
         </article>
         <article class="promo-banner promo-donker">
             <section>
@@ -115,14 +115,14 @@ require_once __DIR__ . '/includes/header.php';
                 <p>Vanaf <strong>€1.199,-</strong></p>
                 <a href="<?= $SITE_URL ?>/producten.php?cat=smartphones" class="knop knop-wit knop-sm">Bekijk nu →</a>
             </section>
-            <span class="promo-afbeelding" aria-hidden="true">📱</span>
+            <span class="promo-afbeelding" aria-hidden="true"><img src="images/iphone15pro.png" alt="iphone 15" width = 300px; ></span>
         </article>
     </section>
 
     <!-- Aanbiedingen -->
     <section class="sectie">
         <header class="sectie-kop">
-            <h2 class="sectie-titel">🔥 Aanbiedingen</h2>
+            <h2 class="sectie-titel"> Aanbiedingen</h2>
             <a href="<?= $SITE_URL ?>/producten.php?badge=sale" class="sectie-link">Bekijk alle →</a>
         </header>
         <?php if (empty($aanbiedingen)): ?>
@@ -163,7 +163,6 @@ require_once __DIR__ . '/includes/header.php';
     <!-- Nieuwsbrief -->
     <section class="nieuwsbrief-banner">
         <section class="nieuwsbrief-links">
-            <span class="nieuwsbrief-icoon" aria-hidden="true">✉️</span>
             <section>
                 <h2>Blijf op de hoogte</h2>
                 <p>Ontvang de beste deals en nieuwe producten in je inbox.</p>

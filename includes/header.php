@@ -19,9 +19,9 @@ global $SITE_URL, $SITE_NAME;
 <section class="topbalk">
     <section class="container">
         <ul class="topbalk-info">
-            <li>🚚 Gratis verzending vanaf €50</li>
-            <li>🔄 30 dagen bedenktijd</li>
-            <li>⚡ Voor 23:00 besteld, morgen in huis</li>
+            <li> Gratis verzending vanaf €50</li>
+            <li>30 dagen bedenktijd</li>
+            <li>Voor 23:00 besteld, morgen in huis</li>
             <li>⭐ Klantbeoordeling 4.8/5</li>
         </ul>
         <nav class="topbalk-nav" aria-label="Account navigatie">
@@ -43,7 +43,7 @@ global $SITE_URL, $SITE_NAME;
 <header class="hoofdheader">
     <section class="header-inner container">
         <a href="<?= $SITE_URL ?>/" class="logo" aria-label="Techfix Solutions - Home">
-            <span class="logo-icoon">🔧</span>
+           
             <span class="logo-tekst"><strong>Techfix</strong> Solutions</span>
         </a>
 
