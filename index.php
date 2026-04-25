@@ -2,7 +2,7 @@
 require_once __DIR__ . '/includes/config.php';
 global $SITE_URL, $SITE_NAME;
 
-$paginaTitel = $SITE_NAME . ' - Dé specialist in tech';
+$paginaTitel = $SITE_NAME . ' - De specialist in tech';
 
 try {
     $db = getDB();
